@@ -3,4 +3,4 @@ project(NocionesClaveLibDinamica)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_library(NocionesClaveLibDinamica SHARED src/muestraHolaMundo.cpp)
+add_library(NocionesClaveLibDinamica SHARED src/funciones.cpp)
