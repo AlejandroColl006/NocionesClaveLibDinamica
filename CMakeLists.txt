@@ -1,4 +1,7 @@
 cmake_minimum_required(VERSION 3.29)
+
+set( CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS True ) #Esto hace que genere el .lib
+
 project(NocionesClaveLibDinamica)
 
 set(CMAKE_CXX_STANDARD 20)
